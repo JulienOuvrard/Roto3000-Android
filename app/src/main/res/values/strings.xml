@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Roto3000</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_new_project">newProject</string>
+    <string name="title_activity_open_project">openProject</string>
+    <string name="title_activity_choose_video">chooseVideo</string>
+    <string name="title_activity_get_camera">getCamera</string>
+    <string name="title_activity_video_gallery">videoGallery</string>
+    <string name="title_activity_color_picker">colorPicker</string>
+    <string name="title_activity_choose_frequency">chooseFrequency</string>
+</resources>

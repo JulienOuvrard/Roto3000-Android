@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fr.m1alma.ihm.roto3000" >
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".welcome"
+            android:label="Roto3000"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".roto3000"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".openProject"
+            android:label="@string/title_activity_open_project"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".chooseVideo"
+            android:label="@string/title_activity_choose_video"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".getCamera"
+            android:label="@string/title_activity_get_camera"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".videoGallery"
+            android:label="@string/title_activity_video_gallery"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".chooseFrequency"
+            android:label="@string/title_activity_choose_frequency"
+            android:screenOrientation="landscape" >
+        </activity>
+    </application>
+
+</manifest>

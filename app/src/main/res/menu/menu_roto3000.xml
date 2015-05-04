@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".roto3000">
+
+        <item android:id="@+id/video_menu"
+            android:title="Video">
+            <menu>
+                <item android:id="@+id/open_vid_submenu"
+                    android:title="Open Video"/>
+            </menu>
+        </item>
+        <item android:id="@+id/preview_menu"
+            android:title="Preview">
+            <menu>
+                <item android:id="@+id/play_submenu"
+                    android:title="Play anime"/>
+                <item android:id="@+id/play_layers_submenu"
+                    android:title="Play n layers"/>
+            </menu>
+        </item>
+
+        <item android:id="@+id/export_menu"
+            android:title="Export">
+            <menu>
+                <item android:id="@+id/exp_anime_submenu"
+                    android:title="Export anime"/>
+                <item android:id="@+id/exp_layer_submenu"
+                    android:title="Export Layers"/>
+                <item android:id="@+id/exp_both_submenu"
+                    android:title="Export Both"/>
+            </menu>
+        </item>
+
+        <item android:id="@+id/project_menu"
+            android:title="Project">
+            <menu>
+                <item android:id="@+id/new_pro_submenu"
+                    android:title="New Project"/>
+                <item android:id="@+id/open_pro_submenu"
+                    android:title="Open Project"/>
+                <item android:id="@+id/save_pro_submenu"
+                    android:title="Save Project"/>
+            </menu>
+        </item>
+</menu>
